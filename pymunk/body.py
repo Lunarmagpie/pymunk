@@ -362,7 +362,7 @@ class Body(PickleMixin, TypingAttrMixing, object):
     angle = property(
         _get_angle,
         _set_angle,
-        doc="""Rotation of the body in radians.
+        doc="""Rotation of the body in degrees.
 
         When changing the rotation you may also want to call
         :py:func:`Space.reindex_shapes_for_body` to update the collision 
